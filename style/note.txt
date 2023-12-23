@@ -1,0 +1,149 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  min-height: 100vh;
+}
+
+header{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 2000;
+  box-shadow: 0 1px 6px 0 rgb(32 33 36 /10%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 14%;
+  background-color: #fff;
+}
+header img{
+  width: 8%;
+}
+
+.navbar_links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.navbar_links li{
+  margin-right: 30px;
+  list-style: none;
+}
+
+.navbar_links li a{
+  font-family: 'Segoe UI';
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #46120C;
+  cursor: pointer;
+}
+
+
+.sumatspice_banner{
+  position: relative;
+  width: 100%;
+}
+
+.products{
+  position: absolute;
+  width: 25%;
+  right: 600px;
+  top: 320px;
+  box-shadow: 0 1px 6px 0 rgb(32 33 36 /10%);
+}
+
+.home_text{
+  position: absolute;
+  top: 400px;
+  left: 150px;
+}
+
+.home_text h1{
+  font-family: 'Segoe UI';
+  font-size: 4em;
+  color: #fff;
+  line-height: 80px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.home_text p{
+  font-family: 'Segoe UI';
+  font-size: 2em;
+  color: #E1C137;
+  font-weight: 300;
+  
+}
+.button{
+  margin-top: 60px;
+}
+
+.btn{
+  width: fit-content;
+  max-width: min(100%, 100vw);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  padding: 20px 60px;
+  background: #E1C137;
+  border-radius: 50px;
+  color: #fff;
+  font-family: 'Segoe UI';
+  font-size: 1.5em;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.5s;
+  
+}
+
+.btn:hover{
+  color: #46120C;
+  text-shadow: 0 0 15px #fff, 0 0 40px black;
+}
+
+.btn span{
+  position: relative;
+  z-index: 1;
+  letter-spacing: 0.2em;
+}
+
+.btn::before{
+  content: '';
+  position: absolute;
+  top: var(--y);
+  left: var(--x);
+  transform: translate(-50%, -50%);
+  background: radial-gradient(#E1C137, transparent, transparent);
+  width: 200px;
+  height: 200px;
+  opacity: 0;
+  transition: 0.5s, top 0s, left 0s;
+}
+
+.btn:hover::before{
+  opacity: 1;
+}
+
+.btn::after{
+  content: '';
+  position: absolute;
+  inset: 7px;
+  background: rgba(225, 193, 55, 0.8);
+  border-radius: 48px;
+} */
